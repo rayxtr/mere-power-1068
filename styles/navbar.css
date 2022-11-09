@@ -1,0 +1,113 @@
+#header{
+   
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    z-index: 2;
+  justify-content: space-evenly;
+    box-shadow: 1px 1px 1px 1px rgb(240, 234, 234);
+    align-items: center;
+
+}
+#header>.logo{
+width: 12%;
+height: 100%;
+
+border-radius: 2px 5px 10px 5px;
+
+}
+#header>.logo>a>img{
+    width: 100%;
+    height: 100%;
+}
+#container .menu{
+    width: 64%;
+   
+  
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family: "Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+.menu .labtest{
+    display: flex;
+    width: 130px;
+    justify-content: space-between;
+   
+    
+}
+.menu .labtest>span{
+    position: relative;
+    text-align: center;
+    animation: beat 3s  infinite;
+    background-color:#ff6f61 ;
+    color: white;
+    font-size: 12px;
+    bottom: 5px;
+    
+    
+}
+.menu .coreplan>span{
+    background-color: #ff6f61;
+    color: white;
+    font-size: 12px;
+    position: relative;
+    bottom: 5px;
+}
+
+.menu>ul{
+    display: flex;
+}
+.menu>ul>li{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 8px;
+}
+#container .menu2{
+    width: 29%;
+
+    
+}
+#container .menu2>ul{
+width: 80%;
+margin: auto;
+display: flex;
+
+align-items: center;
+
+}
+
+#cartlogo{
+    width: 30px;
+}
+.menu2>ul>li{
+    display: flex;
+ margin: 0 5px;
+    list-style: none;
+}
+.menu2>ul>li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+@keyframes beat {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(243, 10, 10, 0.829);
+	}
+
+	50% {
+		transform: scale(0.9);
+		box-shadow: 0 2px 0 6px rgb(248, 243, 243);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(252, 6, 6, 0.925);
+	}
+}

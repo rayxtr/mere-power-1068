@@ -1,0 +1,36 @@
+#product1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 20px;
+    row-gap: 20px;
+    width: 95%;
+    margin: auto;
+    
+    
+
+}
+#product1 div{
+    width:200px;
+   background-color: white;
+    height: 300px;
+    display: grid;
+    padding: 10px;
+    
+}
+#product1 div:hover{
+    border-radius: 10px;
+   box-shadow: 0px 8px 16px 0px rgba(22, 22, 22, 0.288); 
+}
+#product1 div img{
+    width: 60%;
+    height: 170px;
+    margin: auto;
+}
+#product1 div p:nth-child(3){
+    color: #666;
+    font-size: 12px;
+}
+#product1 div p:nth-child(2){
+    font-size: 14px;
+}
+

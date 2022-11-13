@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="shortcut icon" href="imgs/Your safety, matters to us.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="stylesheet" href="/styles/dropdown.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    background-color: azure;
+}
+    #pcontainer{
+        width: 60%;
+        margin: auto;
+        display: grid;
+        row-gap: 20px;
+        
+        
+        
+    }
+    #pcontainer>div{
+    border-bottom: 1px solid rgb(207, 196, 196) ;
+    line-height:25px;
+    padding: 40px;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+    #pcontainer>div>div{
+        display: flex;
+        align-items: center;
+        width: 50%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    #pcontainer>div button{
+        background-color: #ff6f61;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        width: 120px;
+        height: 40px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+</style>
+<body>
+    <div id="container">
+    <div id="header">
+        <div class="logo">
+            <a href="Medicine.html"> <img src="/imgs/Your safety, matters to us.png" alt="Ms Pharmacy .logo"></a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="Medicine.html" style="color:#ff6f61 ;">MEDICINES</a></li>
+                <li><a href="">
+                        <div class="labtest"> LAB TESTS <span>SAFE</span></div>
+                    </a></li>
+                <li><a href="">CONSULT DOCTORS</a></li>
+                <li><a href="">COVID-19</a> </li>
+                <li><a href="">AYURVEDA</a></li>
+                <li><a href="">
+                        <div class="coreplan"> CARE PLAN <span>SAVE MORE</span></div>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="menu2">
+            <ul>
+                <li>
+                    <pre><a href="">Login</a> | <a href="">Sign Up</a> </pre>
+                </li>
+                <li><a href="">Offers</a></li>
+                <li><a href="Cart.html" target="_blank"><img src="/imgs/cart.png" alt="Cart" id="cartlogo"></a></li>
+                <li><a href="">Need Help?</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="dropdowns">
+             
+        <div class="research">
+            <select>
+            <option value=""> Health Resource Center</option>
+            </select>
+            <div class="contents">
+                <a href="">All Diseases</a>
+                <a href="">All Medicines</a>
+                <a href="">Medicines by Therapeutic Class</a>
+            </div>
+        </div>
+        <div class="research">
+            <select>
+            <option value="">Vitamins & Nutrition</option>
+            </select>
+
+            <div class="contents">
+                <a href=""><b>Vitamins & Supplements</b></a>
+                <a href="">Multivitamins</a>
+                <a href="">Vitamins A-Z</a>
+                <a href="">Vitamin B12 & B Complex</a>
+                
+                <a href=""><b>Nutritional Drinks</b></a>
+                <a href="">Adult Daily Nutrition</a>
+                <a href="">Kids Nutrition(2-15 Yrs)</a>
+                <a href="">Women Nutrition</a>
+                
+                <a href=""><b>Health Food & Drinks</b></a>
+                <a href="">Green Tea & Herbal Tea</a>
+                <a href="">Apple Cider Vinegar</a>
+                <a href="">Healthy Snacks</a>
+            </div>
+            
+        </div>
+        <div class="research">
+            <select>
+            <option value="">Diabetes</option>
+            </select>
+            
+            <div class="contents">
+                <a href=""><b>Diabetes Monitoring</b></a>
+                <a href="">Blood Glucose Monitors</a>
+                <a href="">Test Strips & Lancets</a>
+                <a href="">Syringes & Pens</a>
+                
+                <a href=""><b>Sugar Free</b></a>
+                <a href=""><b>Diabetic Medicines</b></a>
+                <a href="">Vitamins,Minerals & Antioxidants</a>
+                <a href="">Homeopathy Medicines</a>
+                <a href="">Ayurvedic Medicine</a>
+            </div>
+            
+        </div>
+        <div class="research">
+            <select>
+            <option value="">Healthcare Devices</option>
+            </select>
+            
+            <div class="contents">
+                <a href=""><b>Top brands in HealthCare Devices</b></a>
+                <a href="">Dr. Morepen Devices</a>
+                <a href="">Accu -chek</a>
+                <a href="">One Touch</a>
+                
+                <a href="">Omron</a>
+                
+                
+                <a href=""><b>BP Monitors</b></a>
+                <a href=""><b>Oxygen Concentrators & Cans</b></a>
+                <a href=""><b>Thermometers</b></a>
+                <a href="">Ir Thermometers</a>
+                <a href=""><b>Weighing Scales</b></a>
+            </div>
+            
+        </div>
+        <div class="research">
+            <select>
+            <option value="">Personal Care</option>
+            </select>
+            
+            <div class="contents">
+                <a href=""><b>Sexual Wellness</b></a>
+                <a href="">Condoms</a>
+                <a href="">Lubricants & Message Gels</a>
+                <a href="">Personal body Massagers</a>
+                
+                <a href="">Men Perfomance Enhancers</a>
+                <a href="">Sexual Health Supplements</a>
+                
+                
+                <a href=""><b>Skin Care</b></a>
+                <a href="">Body Lotions</a>
+                <a href="">Masquito Repellents</a>
+                <a href="">Lip Balm</a>
+                <a href="">Acne Care</a>
+                <a href="">Bath Essentials</a>
+                <a href="">Facewash</a>
+                <a href="">Santizers & Handwash</a>
+                <a href="">Sunscreem</a>
+            </div>
+            
+        </div>
+        <div class="research">
+            <select>
+            <option value="">Health Conditions</option>
+            </select>
+            
+            <div class="contents">
+                <a href=""><b>Stomach Care</b></a>
+                <a href=""><b>Heart Care</b></a>
+                <a href=""><b>Bone, Joint & Muscle Care</b></a>
+                <a href=""><b>Pain Relief</b></a>
+                <a href=""><b> Eye Care</b></a>
+                <a href=""><b>Liver Care</b></a>
+                <a href=""><b>Fever</b></a>
+                <a href=""><b>Kidney Care</b></a>
+                <a href=""><b>Smoking Cessation</b></a>
+                <a href=""><b>Respiratory Care</b></a>
+            </div>
+            
+        </div>
+        <div class="research">
+            <select>
+            <option value="">Ayurveda Products</option>
+            </select>
+            
+            <div class="contents">
+                <a href=""><b>Ayurveda Top Brands</b></a>
+                <a href="">Dabur</a>
+                <a href="">Sri Sri Tattva</a>
+                <a href="">Kerala Ayurveda</a>
+                <a href="">Patanjali</a>
+                <a href=""><b>Chyanwanparash</b></a>
+                <a href=""><b>Unani Medicines</b></a>
+                <a href="">Hamdard Unani</a>
+                <a href="">AMU DawaKhana</a>
+                <a href="">Dehlvi Remedies</a>
+            </div>
+            
+        </div>
+        <div class="research">
+            <select>
+            <option value="">Homeopathy</option>
+            </select>
+            
+            <div class="contents">
+                <a href=""><b>Homeopathy Top Brands</b></a>
+                <a href="">SBL Homeopathy</a>
+                <a href="">Dr Reckeweg</a>
+                <a href="">Dr Willmar Schwabe India</a>
+                <br>
+                <a href="">Bakson's</a>
+                <a href="">Allen</a>
+                <a href="">Boiron</a>
+                <a href=""><b>Homeopathy Medicines</b></a>
+                <a href="">Homeopathic Drops</a>
+                <a href="">Dilutions</a>
+                <a href="">Mother Tinctures</a>
+                <a href="">Triturations</a>
+                <a href="">Biochemics</a>
+            </div>
+            
+        </div>
+        <div class="research">
+            <select>
+            <option value="">Featured</option>
+            </select>
+            
+            <div class="contents">
+                <a href=""><b>Winter Care</b></a>
+                <a href="">Body & Skin Care</a>
+                <a href="">Hair & Scalp Care</a>
+                <a href="">Cough & Cold</a>
+                
+                <a href="">Fever & Headache</a>
+                
+                
+                <a href=""><b>MS pharmacy Health Products</b></a>
+                <a href=""><b>Trending Now</b></a>
+                <a href=""><b>New Arrivals</b></a>
+                <a href=""><b>Super Savings</b></a>
+                <a href=""><b>Deals of Day</b></a>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <div id="pcontainer">
+
+    </div>
+    <div id="footer">
+        <div class="footermenu">
+            <div>
+                <h3>Know Us</h3>
+                <div>
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Press Coverage</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Business Partnership</a></li>
+                        <li><a href="">Become a Health Partner</a></li>
+                        <li><a href="">Corporate Governance</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div>
+                <h3>Our Policies</h3>
+                <div>
+                    <ul>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms and Conditions</a></li>
+                        <li><a href="">Editorial Policy</a></li>
+                        <li><a href="">Return Policy</a></li>
+                        <li><a href="">IP policy</a></li>
+                        <li><a href="">Grievance Redressal Policy</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h3>Our Services</h3>
+                <div>
+                    <ul>
+                        <li><a href="">Order Medicines</a></li>
+                        <li><a href="">Book Lab Tests</a></li>
+                        <li><a href="">Consult a Doctor</a></li>
+                        <li><a href="">Ayurveda Articles</a></li>
+                        <li><a href="">Hindi Articles</a></li>
+                        <li><a href="">Care Plan</a></li>
+                         </ul>
+                </div>
+            </div>
+            <div>
+                <h3>connect</h3>
+                <div>
+                    <span>Social Links</span>
+                    <ul>
+                        <li><a href=""><img src="/imgs/fb.png" alt="facebook"></a></li>
+                        <li><a href=""><img src="/imgs/insta.png" alt="Instagram"></a></li>
+                        <li><a href=""><img src="/imgs/twitter.png" alt="twitter"></a></li>
+                        <li><a href=""><img src="/imgs/youtube.jpg" alt="Youtube"></a></li>
+
+                    </ul>
+                    <p>Want daily dose of health?</p>
+                    <button>Sign Up</button>
+
+                </div>
+            </div>
+            <div>
+                <h3>Download App</h3>
+
+                <a href=""><img src="/imgs/playstore.png" alt="playstore"></a>
+                <a href=""><img src="/imgs/applestore.png" alt="Appstore"></a>
+
+
+
+            </div>
+        </div>
+
+        <div class="features">
+
+            <div>
+                <img src="/imgs/reliable.png" alt="reliable">
+                <div>
+                    <h2>Reliable</h2>
+                    <p>All products displayed on MS pharmacy are procured from verified and licensed pharmacies. All labs listed on the platform are accredited</p>
+                </div>
+            </div>
+            <div>
+                <img src="/imgs/secure.png" alt="secure">
+                <div>
+                    <h2>Secure</h2>
+                    <p>Ms Pharmacy uses Secure Sockets Layer (SSL) 128-bit encryption and is Payment Card Industry Data Security Standard (PCI DSS) compliant</p>
+                </div>
+            </div>
+            <div>
+                <img src="/imgs/affordable.png" alt="affordable">
+                <div>
+                    <h2>Affordable</h2>
+                    <p>Find affordable medicine substitutes, save up to 50% on health products, up to 80% off on lab tests and free doctor consultations.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>&copy MS Pharmacy. All rights reserved. In compliance with Drugs and Cosmetics Act, 1940 and Drugs and Cosmetic Rules, 1945, we don't process requests for Sechedule X and other habit forming drugs.</p>
+            <div>
+                <img src="/imgs/mastercard.png" alt="mastercard">
+                <img src="/imgs/visa.png" alt="visa">
+            </div>
+        </div>
+</div>
+
+</div>
+</body>
+</html>
+
+<script>
+   
+
+    let data = JSON.parse(localStorage.getItem("productms"));
+displaydata(data);
+        function displaydata(data){
+            document.querySelector("#pcontainer").innerHTML="";
+
+            
+            data.forEach(function(elem,i){
+       
+        let innerdiv = document.createElement("div");
+        let imgdiv= document.createElement("div");
+        
+        let imgs = document.createElement("img");
+        imgs.setAttribute("src",elem.image_url);
+        let name = document.createElement("p");
+        name.innerText=elem.name;
+        name.style.fontWeight="800";
+        name.style.fontSize="20px";
+
+        let description = document.createElement("p");
+        description.innerHTML=`<b>"</b>`+elem.description+`<b>"</b>`;
+        
+        let category = document.createElement("p");
+        ct=elem.category
+        category.innerText=ct;
+        let highlights = document.createElement("p");
+        highlights.innerText="Highlights :: "+elem.highlight;
+        highlights.style.fontWeight="600";
+        let ingredients = document.createElement("p");
+        ingredients.innerHTML="<b>Ingredients - </b>"+elem.ingredients;
+        let price =document.createElement("p");
+        price.innerHTML="<b>Price</b>:: "+elem.price+" ₹";
+        let ratings= document.createElement("p");
+        ratings.innerHTML=elem.ratings+"<span>&#9734</span>";
+        ratings.style.backgroundColor="green";
+        ratings.style.color="white";
+        ratings.style.width="60px";
+        let safety = document.createElement("p");
+        safety.innerText=elem.safety;
+        let information = document.createElement("h4");
+        information.innerText="Information";
+        let addtocart=document.createElement("button");
+        addtocart.innerText="Add to Cart";
+        
+        
+        imgdiv.append(imgs,ratings);
+        innerdiv.append(imgdiv,name,highlights,price,information,description,ingredients,safety,category,addtocart);  
+        document.querySelector("#pcontainer").append(innerdiv);
+
+        addtocart.addEventListener("click",function(){
+            addcart(elem,i);
+        });
+
+        });
+    }
+
+
+
+     function addcart(elem,i){
+        let cartitems = JSON.parse(localStorage.getItem("ms_cart_added"))||[];
+        let newlist = data.splice(i,1);
+        
+        for(let j =0;j<newlist.length;j++){
+            cartitems.push(newlist[j]);
+        }
+        displaydata(data);
+        localStorage.setItem("ms_cart_added",JSON.stringify(cartitems));
+        localStorage.setItem("productms",JSON.stringify(data));
+      document.querySelector("#pcontainer").innerHTML="<h1>Continue Shopping....</h1>"
+      let home = document.createElement("a");
+      home.href="/Medicine.html";
+        home.innerText="click here";
+        home.style.textDecoration="none";
+        home.style.color="#ff6f61";
+        home.style.fontSize="40px";
+      document.querySelector("#pcontainer").style.height="300px";
+      document.querySelector("#pcontainer").append(home);
+      let promise = new Promise((res,rej)=>{
+        res("Product added to the cart...");
+        rej("Somethings Wrong!!!! Try again");
+      });
+
+      promise.then((val)=>alert(val)).catch((val)=>alert(val));
+
+      
+     }
+
+
+</script>

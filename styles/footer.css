@@ -1,0 +1,105 @@
+#footer{
+    display: grid;
+}
+.footermenu{
+    width: 93%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    padding: 30px;
+    border-bottom: 1px solid rgb(207, 196, 196);
+    border-top: 1px solid rgb(207, 196, 196) ;
+   
+}
+
+.footermenu>div:nth-child(4) ul>li>a>img{
+    width: 30px;
+    z-index: 10;
+}
+.footermenu>div:nth-child(5) a>img{
+    width: 150px;
+}
+.footermenu>div ul>li{
+    list-style: none;
+    line-height: 22px;
+}
+.footermenu>div ul>li>a{
+    text-decoration: none;
+    color:#666;
+    font-size: 12px;
+   
+}
+.footermenu>div div{
+    margin: 15px 0;
+    font-family: "Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.footermenu>div:nth-child(4) div ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.footermenu div button{
+    width: 100px;
+    height: 40px;
+    background-color:#ff6f61;
+    color: white;
+    border: none;
+    font-family: "Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.footermenu div:nth-child(5){
+    position: relative;
+    left: 30%;
+    bottom: 11%;
+    font-family: "Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 40px;
+}
+.footermenu div:nth-child(4) div{
+    font-family: "Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #666;
+}
+.features{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 25px;
+    border-bottom: 1px solid rgb(206, 190, 190);
+
+}
+.features>div{
+    width: 30%;
+    font-family: "Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: flex;
+    align-items: center;
+}
+.features>div div>p{
+color: #666;
+font-size: 12px;    
+margin-top: 15px;
+line-height: 20px;
+}
+.features>div>img{
+width: 24%;
+margin-right: 25px;
+}
+.copyright{
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    color: #666;
+    
+}
+.copyright div>img{
+    width: 50px;
+}
+.copyright div{
+    display: flex;
+    align-items: center;
+}

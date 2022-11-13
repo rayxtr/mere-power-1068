@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+   
+    width: 100%;
+    height: 100%;
+}
+#container{
+    background-color: azure;
+   width:100%;
+    
+    margin: auto;
+}
+.search{
+    width: 80%;
+    margin:10px auto;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.search input{
+    width: 45%;
+    height: 35px;
+    background-color: rgb(225, 235, 245);
+    z-index: 1;
+    border: none;
+    text-align: center;
+    color:black;
+    font-size: 19px;
+}
+.slideshow{
+width: 98%;
+margin: auto;
+margin-top: 30px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+border-bottom: 1px solid rgb(196, 189, 189);
+
+}
+.slides>img{
+    width: 100%;
+    height: 170px;
+    margin: auto;
+    
+}
+.slides{
+    display:flex;
+    grid-template-columns: repeat(5,fr);
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+}
+.brand{
+    display: flex;
+    width: 98%;
+    margin: auto;
+    background-color: white;
+    padding: 15px 0;
+    justify-content: space-evenly;
+    
+    
+}
+.brand div{
+    width: 17%;
+    height: 220px;
+    display: grid;
+    text-align: center;
+   gap: 20px;
+}
+.brand div:hover{
+    box-shadow: 2px 2px 3px 4px rgb(235, 220, 220);
+    cursor: pointer;
+}
+.brand>div>img{
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    box-shadow: 2px 0px 3px 2px rgb(212, 202, 202);
+    border-radius: 10px;
+}
+ 
+#feat{
+    color: #666;
+    margin:30px 50px;
+    font-size: 20px;
+}
+.bio{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    
+}
+.bio>h1{
+    color: #666;
+    margin: 30px 0;
+    font-weight: 400;
+}
+.information{
+    padding: 30px;
+    color: #666;
+    line-height: 25px;
+    background-color: white;
+    border-bottom: 1px solid rgb(196, 189, 189);
+}
+.information>h2, .information>h3{
+color: black;
+margin: 15px 0;
+}
+
+.firmdetail{
+    display: grid;
+    gap: 20px;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    font-family: "Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+.innerfirm{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgb(196, 189, 189);
+}
+.download{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.firmdetail>h1{
+    color: #666;
+    font-weight: 500;
+
+}
+.download>p{
+    font-size: 18px;
+}
+.download>input{
+    width: 40%;
+    height: 40px;
+}
+.download>button{
+    background-color: #ff6f61;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    height: 40px;
+
+}
+
+

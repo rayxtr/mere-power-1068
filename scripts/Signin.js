@@ -13,6 +13,6 @@ function login(event){
     if(!isuser){
         alert("Incorrect Login credentials!!!");
     }else{
-        location.href="/Medicine.html";
+        location.href="/index.html";
     }
 }

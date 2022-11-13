@@ -6,7 +6,7 @@ fetch("https://636bd26d7f47ef51e13b5902.mockapi.io/products").then((res)=>res.js
 
 function displayproduct(data){
    document.querySelector("#product1").innerHTML="";
-   document.querySelector("#container").innerHTML="";
+   
     data.forEach(function(elem){
         let anchor = document.createElement("a");
         anchor.href='/product.html';
@@ -74,6 +74,16 @@ function search2(){
 }
 
 
+function displaymessage(){
+    let mobnumber = document.getElementById("mobilenumberuser").value;
+    alert("Link has been sent to "+mobnumber);
+    document.getElementById("mobilenumberuser").innerText="";
+}
 
+
+let cartarray =JSON.parse(localStorage.getItem("ms_cart_added"))||[];
+
+let np = document.getElementById("np");
+np.innerText=cartarray.length;
 
 

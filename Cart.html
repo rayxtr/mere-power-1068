@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/styles/footer.css">
     <link rel="stylesheet" href="/styles/navbar.css">
     <link rel="stylesheet" href="/styles/cart.css">
+    <link rel="shortcut icon" href="imgs/Your safety, matters to us.png" type="image/x-icon">
 </head>
 <body>
     <div id="container">
@@ -34,10 +35,11 @@
             <div class="menu2">
                 <ul>
                     <li>
-                        <pre><a href="">Login</a> | <a href="">Sign Up</a> </pre>
+                        <pre><a href="#" onclick="window.open('Login.html', '_blank', 'width=1000,height=600')"">Login</a> | <a href="#" onclick="window.open('Signup.html', '_blank', 'width=1000,height=600')">Sign Up</a> </pre>
                     </li>
                     <li><a href="">Offers</a></li>
-                    <li><a href=""><img src="/imgs/cart.png" alt="Cart" id="cartlogo"></a></li>
+                    <div style="display:flex;"> <li><a href="Cart.html" target="_blank"><img src="/imgs/cart.png" alt="Cart" id="cartlogo"></a></li>
+                        <li><span style="color: #ff6f61;margin-left: -15px; font-weight: 900;width: 20px; text-align: center; font-size: 19px;" id="np">0</span></li></div>
                     <li><a href="">Need Help?</a></li>
                 </ul>
             </div>
@@ -293,7 +295,7 @@
 
                         </ul>
                         <p>Want daily dose of health?</p>
-                        <button>Sign Up</button>
+                        <button onclick="window.open('Signup.html', '_blank', 'width=1000,height=600')"">Sign Up</button>
 
                     </div>
                 </div>

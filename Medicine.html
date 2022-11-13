@@ -38,11 +38,13 @@
             <div class="menu2">
                 <ul>
                     <li>
-                        <pre><a href="">Login</a> | <a href="">Sign Up</a> </pre>
+                        <pre><a href="#" onclick="window.open('Login.html', '_blank', 'width=1000,height=600')">Login</a> | <a href="#" onclick="window.open('Signup.html', '_blank', 'width=1000,height=600')">Sign Up</a> </pre>
                     </li>
                     <li><a href="">Offers</a></li>
-                    <li><a href="Cart.html" target="_blank"><img src="/imgs/cart.png" alt="Cart" id="cartlogo"></a></li>
+                   <div style="display:flex;"> <li><a href="Cart.html" target="_blank"><img src="/imgs/cart.png" alt="Cart" id="cartlogo"></a></li>
+                    <li><span style="color: #ff6f61;margin-left: -15px; font-weight: 900;width: 20px; text-align: center; font-size: 19px;" id="np">0</span></li></div>
                     <li><a href="">Need Help?</a></li>
+                    <li><a href="/Adminsignin.html">Admin Login</a></li>
                 </ul>
             </div>
 
@@ -256,7 +258,7 @@
       <div class="bio"><h1>MS Pharmaccy India's Leading Online Pharmacy & Healthcare Platform</h1></div>
        
       
-      <p id="feat feat1">Featured Brand</p>
+      <p id="feat">Featured Brand</p>
         <div class="brand">
              <div>
                 <img src="/imgs/brandimg/download.jpg" alt="">
@@ -331,8 +333,8 @@
             </div>
             <div class="download">
                 <p>Get the link to download our app</p>
-                <input type="text" placeholder="Enter Your mobile number">
-                <button>Send Link</button>
+                <input type="text" placeholder="Enter Your mobile number" id="mobilenumberuser">
+                <button style="cursor: pointer;" id="sendlink" onclick="displaymessage()">Send Link</button>
             </div>
 
         </div>
@@ -386,23 +388,23 @@
                     <div>
                         <span>Social Links</span>
                         <ul>
-                            <li><a href=""><img src="/imgs/fb.png" alt="facebook"></a></li>
-                            <li><a href=""><img src="/imgs/insta.png" alt="Instagram"></a></li>
-                            <li><a href=""><img src="/imgs/twitter.png" alt="twitter"></a></li>
-                            <li><a href=""><img src="/imgs/youtube.jpg" alt="Youtube"></a></li>
+                            <li><a href="https://www.facebook.com/1mgOfficial"><img src="/imgs/fb.png" alt="facebook"></a></li>
+                            <li><a href="https://www.instagram.com/1mgofficialpage/"><img src="/imgs/insta.png" alt="Instagram"></a></li>
+                            <li><a href="https://twitter.com/1mgofficial"><img src="/imgs/twitter.png" alt="twitter"></a></li>
+                            <li><a href="https://www.youtube.com/c/1mgofficial"><img src="/imgs/youtube.jpg" alt="Youtube"></a></li>
 
                         </ul>
                         <p>Want daily dose of health?</p>
-                        <button>Sign Up</button>
+                       <a href="#" onclick="window.open('Signup.html', '_blank', 'width=1000,height=600')" > <button>Sign Up</button></a>
 
                     </div>
                 </div>
                 <div>
                     <h3>Download App</h3>
 
-                    <a href=""><img src="/imgs/playstore.png" alt="playstore"></a>
-                    <a href=""><img src="/imgs/applestore.png" alt="Appstore"></a>
-
+                    <a href="https://play.google.com/store/games"><img src="/imgs/playstore.png" alt="playstore"></a>
+                    <a href="https://www.apple.com/in/app-store/"><img src="/imgs/applestore.png" alt="Appstore"></a>
+                    
 
 
                 </div>

@@ -84,7 +84,7 @@ align-items: center;
 #cartlogo{
     width: 30px;
 }
-.menu2>ul>li{
+.menu2>ul li{
     display: flex;
  margin: 0 5px;
     list-style: none;
@@ -110,4 +110,8 @@ align-items: center;
 		transform: scale(0.95);
 		box-shadow: 0 0 0 0 rgba(252, 6, 6, 0.925);
 	}
+}
+.menu2 div span{
+    position: relative;
+    bottom: 8px;
 }

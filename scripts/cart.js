@@ -7,8 +7,9 @@ promise.then((val)=>{alert(val);displaycart(mycart)}).catch((val)=>alert(val));
 // displaycart(mycart);
 console.log(mycart);
 function displaycart(mycart){
+    document.querySelector("#cartitems").innerHTML="";
+mycart.forEach(function(elem,i){
 
-mycart.forEach(function(elem){
 
     let innerdiv = document.createElement("div");
    
@@ -67,7 +68,7 @@ price.innerText="Total Price : "+tp +" ₹";
     });
 
     let remove = document.createElement("button");
-    remove.innerHTML="Remove";
+    remove.innerText="Remove";
     let box4=document.createElement("div");
     box4.className="Price";
     let dust = document.createElement("img");
@@ -80,25 +81,22 @@ price.innerText="Total Price : "+tp +" ₹";
     innerdiv.append(box2,box4);
     document.querySelector("#cartitems").append(innerdiv);
 
-
-    let innerdiv2 = document.createElement("div");
-
-    let mrp = document.createElement("div");
-    let item = document.createElement("p");
-    item.innerText="Item Total(MRP)";
-    let totalprice= document.createElement("figcaption");
-    totalprice.innerText="x";
-    mrp.append(item,totalprice);
-    let discountbox = document.createElement("div");
-    let discount = document.createElement("p");
-    discount.innerText="Price Discount";
-    let disc = document.createElement("p");
-    disc.innerText="y";
-    discountbox.append(discount,disc);
-    innerdiv2.append(mrp,discountbox);
-    document.querySelector("#payment").append(innerdiv2);
-
+remove.addEventListener("click",function(elem,i){
+    removeitem(elem,i)
+});
+    
 
 
 });
 }
+
+function removeitem(elem,i){
+    mycart.splice(i,1);
+    displaycart(mycart);
+    localStorage.setItem("ms_cart_added",JSON.stringify(mycart));
+}
+
+let cartarray =JSON.parse(localStorage.getItem("ms_cart_added"))||[];
+
+let np = document.getElementById("np");
+np.innerText=cartarray.length;
